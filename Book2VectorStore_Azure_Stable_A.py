@@ -3,6 +3,10 @@ nest_asyncio.apply()
 import os
 from dataclasses import dataclass
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 # Load model from Azure OpenAI
 from llama_index.llms.azure_openai import AzureOpenAI
 from llama_index.llms.openai import OpenAI
@@ -13,7 +17,7 @@ from llama_index.core.node_parser import MarkdownElementNodeParser
 
 # import
 from llama_index.vector_stores.chroma import ChromaVectorStore
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+# from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from IPython.display import Markdown, display
 import chromadb
 import streamlit as st

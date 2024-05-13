@@ -9,3 +9,4 @@ llama_index.llms.openai
 llama_index.embeddings.azure_openai
 llama_index.vector_stores.chroma
 llama_index.embeddings.huggingface
+pysqlite3-binary
