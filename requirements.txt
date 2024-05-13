@@ -4,3 +4,8 @@ llama_index
 llama_parse
 chromadb
 streamlit
+llama_index.llms.azure_openai
+llama_index.llms.openai
+llama_index.embeddings.azure_openai
+llama_index.vector_stores.chroma
+llama_index.embeddings.huggingface
