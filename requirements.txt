@@ -1,8 +1,6 @@
 nest_asyncio
-os
 dataclasses
 llama_index
 llama_parse
-Ipython
 chromadb
 streamlit
