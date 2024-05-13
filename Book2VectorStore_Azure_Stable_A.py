@@ -18,7 +18,7 @@ from llama_index.core.node_parser import MarkdownElementNodeParser
 # import
 from llama_index.vector_stores.chroma import ChromaVectorStore
 # from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from IPython.display import Markdown, display
+# from IPython.display import Markdown, display
 import chromadb
 import streamlit as st
 
